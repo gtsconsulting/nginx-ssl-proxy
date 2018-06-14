@@ -4,7 +4,6 @@ nginx-ssl-proxy:
   image: gtsconsulting/nginx-ssl-proxy
   restart: always
   environment:
-    UPSTREAM: 127.0.0.1:8080
     SERVERNAME: gtsconsulting.ma
   ports:
     - "80:80"
